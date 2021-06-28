@@ -19,6 +19,34 @@ let services=document.querySelector('.services-click');
 let work=document.querySelector('.work-click');
 let blog=document.querySelector('.blog-click');
 
+let TO=document.querySelector('.TO');
+let TOtimes=document.querySelector('.TO-times');
+let TOProj=document.querySelector('.container-TO');
+
+let generative=document.querySelector('.generative');
+let gentimes=document.querySelector('gen-times');
+let generativeDesc=document.querySelector('generative-desc');
+
+let topology=document.querySelector('.topology');
+let topotimes=document.querySelector('.topo-times');
+let topologyDesc=document.querySelector('.topology-desc');
+
+let reverse=document.querySelector('.reverse');
+let revtimes=document.querySelector('.rev-times');
+let reverseDesc=document.querySelector('.reverse-desc');
+
+let vehicle=document.querySelector('.vehicle');
+let vehtimes=document.querySelector('.veh-times');
+let vehicleDesc=document.querySelector('.vehicle-desc');
+
+let biomimetics=document.querySelector('.biomimetics');
+let biotimes=document.querySelector('.bio-times');
+let biomimeticsDesc=document.querySelector('.biomimetics-desc');
+
+let electric=document.querySelector('.electric');
+let electimes=document.querySelector('.elec-times');
+let electricDesc=document.querySelector('.electric-desc');
+
 
 hamburger.addEventListener('click', function(){
     mobileNav.classList.add('open')
@@ -59,5 +87,72 @@ blog.addEventListener('click', function(){
 
 
 
+
+TO.addEventListener('click', function(){
+    TOProj.classList.add('open')
+
+});
+
+TOtimes.addEventListener('click', function(){
+    TOProj.classList.remove('open')
+    
+
+});
+
+generative.addEventListener('click', function(){
+    generativeDesc.classList.add('open')
+
+});
+
+gentimes.addEventListener('click', function(){
+    generativeDesc.classList.remove('open')
+
+
+    
+
+});
+
+topology.addEventListener('click', function(){
+    topologyDesc.classList.add('open')
+
+});
+
+topotimes.addEventListener('click', function(){
+    topologyDesc.classList.remove('open')
+    
+
+});
+
+reverse.addEventListener('click',function(){
+    reverseDesc.classList.add('open')
+});
+
+revtimes.addEventListener('click',function(){
+    reverseDesc.classList.remove('open')
+});
+
+vehicle.addEventListener('click',function(){
+    vehicleDesc.classList.add('open')
+});
+
+vehtimes.addEventListener('click',function(){
+    vehicleDesc.classList.remove('open')
+});
+
+biomimetics.addEventListener('click',function(){
+    biomimeticsDesc.classList.add('open')
+});
+
+biotimes.addEventListener('click',function(){
+    biomimeticsDesc.classList.remove('open')
+});
+
+electric.addEventListener('click',function(){
+    electricDesc.classList.add('open')
+});
+
+electimes.addEventListener('click',function(){
+    electricDesc.classList.remove('open')
+});
 
 });
