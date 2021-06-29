@@ -864,7 +864,7 @@ footer .copyright{
 .container-TO .card-wrapper1 .card img{
     height: 100%;
     width: 60%;
-    outline: var(--primary);
+    outline: solid var(--primary);
     
 }
 .TO-times{
@@ -926,6 +926,10 @@ footer .copyright{
     margin-bottom: 1rem;
 }
 
+.rev1,.rev2,.wear1,.wear2{
+    outline: solid var(--primary);
+}
+
 
 .wear-proj{
     position: fixed;
@@ -957,13 +961,20 @@ footer .copyright{
     height: 100%;
     width: 25%;
     margin-top: 2rem;
+    outline: solid var(--primary);
 }
 
 .cad1,.cad2,.cad3,.cad4,.cad5{
-    height: 50%;
+    height: 60%;
     width: 20%;
     row-gap: 2rem;
     margin-top: 3rem;
+    outline:solid var(--primary) ;
+}
+
+.cad3{
+    height: 50%;
+    width: 55%;
 }
 
 .cad-proj{
