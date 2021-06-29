@@ -23,13 +23,35 @@ let TO=document.querySelector('.TO');
 let TOtimes=document.querySelector('.TO-times');
 let TOProj=document.querySelector('.container-TO');
 
+let bridge=document.querySelector('.bridge');
+let bridgetimes=document.querySelector('.bridge-times');
+let bridgeProj=document.querySelector('.bridge-proj');
+
+let rev=document.querySelector('.rev');
+let revtimes2=document.querySelector('.rev-times2');
+let revProj=document.querySelector('.rev-proj');
+
+let wear=document.querySelector('.wear');
+let weartimes=document.querySelector('.wear-times');
+let wearProj=document.querySelector('.wear-proj');
+
+let spit=document.querySelector('.spit');
+let spittimes=document.querySelector('.spit-times');
+let spitProj=document.querySelector('.spit-proj');
+
+let cad=document.querySelector('.cad');
+let cadtimes=document.querySelector('.cad-times');
+let cadProj=document.querySelector('.cad-proj');
+
 let generative=document.querySelector('.generative');
-let gentimes=document.querySelector('gen-times');
-let generativeDesc=document.querySelector('generative-desc');
+let gentimes=document.querySelector('.gen-times');
+let generativeDesc=document.querySelector('.generative-desc');
 
 let topology=document.querySelector('.topology');
 let topotimes=document.querySelector('.topo-times');
 let topologyDesc=document.querySelector('.topology-desc');
+
+
 
 let reverse=document.querySelector('.reverse');
 let revtimes=document.querySelector('.rev-times');
@@ -99,6 +121,61 @@ TOtimes.addEventListener('click', function(){
 
 });
 
+bridge.addEventListener('click', function(){
+    bridgeProj.classList.add('open')
+
+});
+
+bridgetimes.addEventListener('click', function(){
+    bridgeProj.classList.remove('open')
+    
+
+});
+
+rev.addEventListener('click', function(){
+    revProj.classList.add('open')
+
+});
+
+revtimes2.addEventListener('click', function(){
+    revProj.classList.remove('open')
+    
+
+});
+
+wear.addEventListener('click', function(){
+    wearProj.classList.add('open')
+
+});
+
+weartimes.addEventListener('click', function(){
+    wearProj.classList.remove('open')
+    
+
+});
+
+spit.addEventListener('click', function(){
+    spitProj.classList.add('open')
+
+});
+
+spittimes.addEventListener('click', function(){
+    spitProj.classList.remove('open')
+    
+
+});
+
+cad.addEventListener('click', function(){
+    cadProj.classList.add('open')
+
+});
+
+cadtimes.addEventListener('click', function(){
+    cadProj.classList.remove('open')
+    
+
+});
+
 generative.addEventListener('click', function(){
     generativeDesc.classList.add('open')
 
@@ -106,16 +183,23 @@ generative.addEventListener('click', function(){
 
 gentimes.addEventListener('click', function(){
     generativeDesc.classList.remove('open')
-
-
     
 
 });
 
+
+
+
+
+
+
 topology.addEventListener('click', function(){
     topologyDesc.classList.add('open')
 
+
 });
+
+
 
 topotimes.addEventListener('click', function(){
     topologyDesc.classList.remove('open')
